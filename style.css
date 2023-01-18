@@ -1,0 +1,16 @@
+body {
+    background-color: lavender;
+    font-family: monospace;
+
+}
+
+header {
+    background-color: skyblue;
+    width: 75%
+}
+
+@media screen and (max-width:500px) {
+    section#reviews {
+        display: none;
+    }
+}
